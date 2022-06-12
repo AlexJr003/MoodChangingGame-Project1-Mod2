@@ -1,0 +1,148 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, serif;    
+}
+
+
+header {
+    background-color: hsl(0, 0%, 0%);
+    
+}
+
+main {
+
+    
+    background-color: black;
+    border-color: black;
+
+}
+
+section#Intruction p{
+    display: flex;
+    font-size: 10rem;
+    justify-content: center;
+}
+
+main p{
+    display: flex;
+    margin: 0 black 10rem 0 black 10rem black;
+    padding: 1.2rem;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+    color: white;
+   }
+
+
+#tituloDaPagina {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+    justify-content: center;
+    background-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(182, 24, 24, 0.786);
+    -webkit-text-fill-color: white;
+}
+
+
+header img {
+    width: 100%;
+}
+
+section#imagens {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center 
+}
+
+section#imagens{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 3rem;
+}
+
+section#imagens form h3 {
+    color:rgb(255, 255, 255);
+    display: flex;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-text-stroke-width: 0.15rem;
+    -webkit-text-stroke-color: rgb(182, 26, 26);
+        
+}
+
+
+
+section#imagens input {
+    display: flex;
+    border: solid 3px rgba(255, 255, 255, 0.636);
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    background-color: rgb(173, 16, 16);
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;  
+    transition: all .3s ease-in-out; 
+    align-items: center;
+    
+}
+
+section#imagens input:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(173, 16, 16);
+    transform: scale(1.1);
+    
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    padding: 5rem;
+    background-color: rgb(182, 26, 26);
+    background-image: url(../img/footer-background.jpg);
+    background-size:20% fixed;
+    background-position: right;
+}
+
+footer p {
+    
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 1.0rem;
+    background-color: rgb(182, 26, 26);
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-size:20%;
+    background-position: center;
+    width:40%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(182, 26, 26);
+    -webkit-text-fill-color: white;
+}
+
+footer audio {
+    position: fixed;
+    top:0;
+    left:0;
+    width:13%;
+    -webkit-text-stroke-color: rgb(182, 26, 26);
+    -webkit-text-fill-color: rgb(182, 26, 26);
+        }
+
